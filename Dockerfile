@@ -1,5 +1,7 @@
 FROM elixir:1.4.5
 
+# Version: 2017-07-25 01
+
 WORKDIR /tmp
 
 RUN wget -q http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz \
